@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Notas</title>
+    <link rel="stylesheet" href="notas.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="/img/logo.png" alt="Logo Universidad" class="logo">
+        </div>
+        <div class="header-icons">
+            <div class="dropdown">
+                <button class="icon-button">
+                    <ion-icon name="notifications-outline" size="large"></ion-icon>
+                    <span class="notification-badge">3</span>
+                </button>
+                <div class="dropdown-content">
+                    <p>Act. de Nota</p>
+                    <p>Nuevo Comentario</p>
+                    <p>Cambio Exitoso</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="icon-button">
+                    <ion-icon name="person-circle-outline" size="large"></ion-icon>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/perfil">Perfil</a>
+                    <a href="/configuracion">Configuración</a>
+                    <a href="/index.html">Cerrar Sesión</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Visualización de Notas</h1>
+        
+        <table class="notes-table" style="border-spacing: 20px;">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>DNI</th>
+                    <th>Parcial</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ramiro</td>
+                    <td>Goldaraz</td>
+                    <td>4532353</td>
+                    <td>Parcial 1</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Tomas</td>
+                    <td>Marelli</td>
+                    <td>1093210</td>
+                    <td>Parcial 2</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Luciano</td>
+                    <td>Gahn</td>
+                    <td>44323543</td>
+                    <td>Parcial 1</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Lucía</td>
+                    <td>Fernández</td>
+                    <td>55667788</td>
+                    <td>Parcial 2</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
